@@ -1,0 +1,256 @@
+body {
+  background-color: black;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.top-paragraph {
+  background-color: #1E3A8A;
+  color: white;
+  padding: 10px;
+  margin: 15px 15px 15px 15px;
+  font: sans-serif;
+}
+
+.top-paragraph h1 {
+  font-size: 12px;
+  color: green;
+  font: 1em sans-serif;
+}
+
+.top-paragraph p {
+  color: green;
+  font: 1em sans-serif;
+}
+
+.footer-index {
+  background-color: #1E3A8A;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font: 1em sans-serif;
+  margin: 0px;
+}
+
+.user-info {
+  background-color: #1E3A8A;
+  color: white;
+  padding: 10px;
+  margin: 15px 15px 75px 15px;
+  font: sans-serif;
+}
+
+form { 
+  max-width: 400px; 
+  margin: auto; 
+}
+
+button {
+  padding: 8px 12px;
+}
+
+.error { 
+  color: red; 
+}
+
+nav {
+  background-color: #1E3A8A;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.nav-logo {
+  flex: 0 0 auto;
+  padding: 0 5px 0 0;
+}
+
+.nav-logo-link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url('/packs/images/favicon.png') no-repeat center center;
+  background-size: contain;
+}
+
+.nav-sections {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav-links a.active {
+  font-weight: bold;
+  background-attachment: fixed;
+  background-color: black;
+}
+
+.nav-links,
+.secondary-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-links a,
+.secondary-links a {
+  color: white;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.nav-links p,
+.secondary-links p {
+  color: Red;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.secondary-links {
+  background: black;
+  padding: 5px;
+}
+
+.posts-list {
+  background-color: #1E3A8A;
+  color: white;
+  padding: 10px;
+  margin: 15px 15px 75px 15px;
+  font: sans-serif;
+}
+
+.container {
+  max-width: 400px; 
+  margin: 100px auto; 
+  padding: 20px; 
+  background: #1E3A8A; 
+  float: left;
+}
+
+.container input[type=text], .container input[type=password] { 
+  width: 95%; 
+  padding: 10px; 
+  margin: 8px 0; 
+  border: 1px solid #ccc; 
+}
+
+.container input[type=submit] { 
+  width: 100%; 
+  padding: 10px; 
+  background: #4285f4; 
+  border: none; 
+  color: white; 
+  cursor: pointer; 
+}
+
+.container input[type=email] { 
+  width: 95%; 
+  padding: 10px; 
+  margin: 8px 0; 
+  border: 1px solid #ccc; 
+}
+
+.container button { 
+  width: 100%; 
+  padding: 10px; 
+  background: #4285f4;
+  border: none; 
+  color: white; 
+  cursor: pointer; 
+}
+
+.site-map {
+  background-color: #1E3A8A;
+  color: white;
+  padding: 10px;
+  margin: 15px 15px 75px 15px;
+  font: sans-serif;
+}
+
+.session_info {
+  background-color: #1E3A8A;
+  border-radius:3px;
+  box-sizing:border-box;
+  display:flex;
+  flex-flow:column;
+  justify-content:center;
+  max-width:360px;
+  padding:.5rem;
+}
+.session_info h3 {
+  margin-bottom:1em
+}
+
+.search-container {
+  margin-bottom: 10px;
+}
+
+.search {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.top-paragraph {
+  background-color: #1E3A8A;
+  color: white;
+  padding: 10px;
+  margin: 15px;
+}
+
+.top-paragraph h1 {
+  font-size: 1.2em;
+  color: green;
+}
+
+.top-paragraph p {
+  color: green;
+}
+
+.footer-index {
+  background-color: #1E3A8A;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font: 1em sans-serif;
+  margin: 0px;
+}
+
+.user-info {
+  background-color: #1E3A8A;
+  color: white;
+  padding: 10px;
+  margin: 15px 15px 75px 15px;
+  font: sans-serif;
+}
+
+a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 90%;
+  margin: 0 auto 75px auto;
+  border-collapse: collapse;
+  background-color: #1E3A8A;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #222;
+}
